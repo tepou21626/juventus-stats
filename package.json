@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "build": "parcel build ./src/index.html",
+    "deploy": "gh-pages -d dist",
     "start": "parcel ./src/index.html --log-level=2 --port=8080",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
