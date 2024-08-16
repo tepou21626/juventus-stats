@@ -1,10 +1,12 @@
 {
   "name": "inf8808_project",
   "version": "1.0.0",
+  "homepage": "https://tepou21626.github.io/juventus-stats/",
   "description": "Projet pour le cours INF8808.",
   "main": "src/index.js",
   "scripts": {
     "build": "parcel build ./src/index.html",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "start": "parcel ./src/index.html --log-level=2 --port=8080",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -30,7 +32,9 @@
   },
   "staticFiles": {
     "staticPath": [
-      "./src/assets/data"
+      "./src/assets/data",
+      "./src/assets/fonts",
+      "./src/assets"
     ]
   }
 }
