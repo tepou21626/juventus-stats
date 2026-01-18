@@ -7,6 +7,11 @@ import * as hover from './scripts/hover.js'
 import rankingData from './assets/data/serieA_ranking.json'
 
 
+import './assets/style.css';
+import './assets/tooltip.css';
+import './assets/typography.css';
+
+
 import d3Tip from 'd3-tip'
 
 /**
