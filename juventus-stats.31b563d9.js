@@ -723,6 +723,9 @@ var _legendJs = require("./scripts/legend.js");
 var _hoverJs = require("./scripts/hover.js");
 var _serieARankingJson = require("./assets/data/serieA_ranking.json");
 var _serieARankingJsonDefault = parcelHelpers.interopDefault(_serieARankingJson);
+var _styleCss = require("./assets/style.css");
+var _tooltipCss = require("./assets/tooltip.css");
+var _typographyCss = require("./assets/typography.css");
 var _d3Tip = require("d3-tip");
 var _d3TipDefault = parcelHelpers.interopDefault(_d3Tip);
 /**
@@ -1021,7 +1024,7 @@ var _d3TipDefault = parcelHelpers.interopDefault(_d3Tip);
     }
 })(d3);
 
-},{"./scripts/helper.js":"bcTKi","./scripts/preprocess.js":"jaoFD","./scripts/viz.js":"dJbSe","./scripts/scales.js":"bySEj","./scripts/legend.js":"iXv5D","./scripts/hover.js":"iTAep","d3-tip":"e0E2V","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","b4969c2a4b97e858":"1j8Vz","9b8dfe2a4411393b":"ceZbD","4a44102d63ac5b49":"f4Lcq","7adbcd2e170e15bb":"hLyBJ","9d76b87f9e5f6314":"jR0os","./assets/data/serieA_ranking.json":"ll6ha"}],"bcTKi":[function(require,module,exports,__globalThis) {
+},{"./scripts/helper.js":"bcTKi","./scripts/preprocess.js":"jaoFD","./scripts/viz.js":"dJbSe","./scripts/scales.js":"bySEj","./scripts/legend.js":"iXv5D","./scripts/hover.js":"iTAep","d3-tip":"e0E2V","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","b4969c2a4b97e858":"1j8Vz","9b8dfe2a4411393b":"ceZbD","4a44102d63ac5b49":"f4Lcq","7adbcd2e170e15bb":"hLyBJ","9d76b87f9e5f6314":"jR0os","./assets/data/serieA_ranking.json":"ll6ha","./assets/style.css":"gWDlB","./assets/tooltip.css":"e0a09","./assets/typography.css":"nrYCP"}],"bcTKi":[function(require,module,exports,__globalThis) {
 /**
  * Sets the size of the SVG canvas containing the graph.
  *
@@ -9424,6 +9427,6 @@ module.exports = module.bundle.resolve("totalSalaries2021.68f6364c.csv") + "?" +
 },{}],"ll6ha":[function(require,module,exports,__globalThis) {
 module.exports = JSON.parse("{\"2019-2020\":[{\"Team\":\"Juventus\",\"Pts\":83},{\"Team\":\"Inter\",\"Pts\":82},{\"Team\":\"Atalanta\",\"Pts\":78},{\"Team\":\"Lazio\",\"Pts\":78},{\"Team\":\"Roma\",\"Pts\":70},{\"Team\":\"Milan\",\"Pts\":66},{\"Team\":\"Napoli\",\"Pts\":62}],\"2020-2021\":[{\"Team\":\"Inter\",\"Pts\":91},{\"Team\":\"Milan\",\"Pts\":79},{\"Team\":\"Atalanta\",\"Pts\":78},{\"Team\":\"Juventus\",\"Pts\":78},{\"Team\":\"Napoli\",\"Pts\":77},{\"Team\":\"Lazio\",\"Pts\":68},{\"Team\":\"Roma\",\"Pts\":62}],\"2021-2022\":[{\"Team\":\"Milan\",\"Pts\":0},{\"Team\":\"Napoli\",\"Pts\":0},{\"Team\":\"Inter\",\"Pts\":0},{\"Team\":\"Juventus\",\"Pts\":0},{\"Team\":\"Lazio\",\"Pts\":0},{\"Team\":\"Roma\",\"Pts\":0},{\"Team\":\"Atalanta\",\"Pts\":0}]}");
 
-},{}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequire5ca2", {}, "./", "/")
+},{}],"gWDlB":[function() {},{}],"e0a09":[function() {},{}],"nrYCP":[function() {},{}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequire5ca2", {}, "./", "/")
 
 //# sourceMappingURL=juventus-stats.31b563d9.js.map
