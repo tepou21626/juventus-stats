@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  src: local(Roboto), local(Roboto-Regular), url("roboto-v20-latin-regular.9a3b753c.woff2") format("woff2"), url("roboto-v20-latin-regular.e596126a.woff") format("woff");
+}
+
+@font-face {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("roboto-slab-v12-latin-regular.69733c3a.woff2") format("woff2"), url("roboto-slab-v12-latin-regular.8c3422d1.woff") format("woff");
+}
+/*# sourceMappingURL=juventus-stats.c07b8856.css.map */
